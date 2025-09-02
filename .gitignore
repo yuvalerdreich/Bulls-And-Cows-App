@@ -1,0 +1,18 @@
+# build folders
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+
+# user-specific files
+*.user
+*.suo
+
+# compiled files
+*.dll
+*.exe
+
+# system files
+Thumbs.db
+desktop.ini
