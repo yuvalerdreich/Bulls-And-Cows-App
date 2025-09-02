@@ -1,6 +1,6 @@
-# Bulls and Cows - Windows Forms Game
+- # Bulls and Cows - Windows Forms Game
 
-This project is a Windows Forms application written in **C# (.NET Framework)** that implements the classic game *Bulls and Cows*.
+- This project is a Windows Forms application written in **C# (.NET Framework)** that implements the classic game *Bulls and Cows*.
 
 ---
 
