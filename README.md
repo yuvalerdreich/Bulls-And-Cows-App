@@ -40,7 +40,7 @@ The game ends when:
 
 2. Build the solution.  
 
-3\. Run the program.  
+3. Run the program.  
 
-4\. Choose the number of attempts and play the game.
+4. Choose the number of attempts and play the game.
 
