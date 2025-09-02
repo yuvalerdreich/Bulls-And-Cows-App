@@ -1,29 +1,23 @@
-# Bulls and Cows - Windows Forms Game (C#)
+# Bulls and Cows Game (C#)
+This project implements the classic "Bulls and Cows" game as a console application in C#
 
-This project implements the classic **"Bulls and Cows"** game as a **Windows Forms application in C#**.
+## Game Rules
+At the start, the player selects the **maximum number of guesses** (between 4 and 10).
 
----
+The computer generates a random 4-letter sequence using the letters A–H, with no repeats.
 
-## Game Overview
-
-The computer randomly generates a secret sequence of **4 unique colors**.  
-The player has a limited number of attempts (**between 4 and 10**) to guess the sequence.
-
-### After each guess:
+On each turn, the player submits a guess (4 uppercase letters, no duplicates).
 
 The system provides feedback:  
-- **Black Peg (Bull):** Correct color in the correct position  
-- **Yellow Peg (Cow):** Correct color in the wrong position
+ - **V** → correct letter and position (bull)  
+ - **X** → correct letter, wrong position (cow)
 
-The game ends when:  
-- The player guesses the entire sequence (**Win**)  
-- The player runs out of attempts (**Loss**)
-
----
+The player continues guessing until:
+ - They guess correctly and win, or
+ - They run out of guesses and lose.
 
 ## How to Run
-
-1. Open the Visual Studio solution  
-2. Build the solution  
-3. Run the program  
-4. Choose the number of attempts and play the game
+1. Open the Visual Studio solution.  
+2. Build the solution.  
+3. Run the program.  
+4. Follow the console prompts.
